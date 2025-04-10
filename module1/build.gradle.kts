@@ -9,8 +9,8 @@ version = rootProject.version
 
 dependencies {
     implementation(project(":module2"))
-    testImplementation(libs.junit.api)    // junit-jupiter-api
-    testRuntimeOnly(libs.junit.engine)    // junit-jupiter-engine لتشغيل JUnit 5
+    testImplementation(libs.junit.api)
+    testRuntimeOnly(libs.junit.engine)
     testImplementation(libs.junit.params)
 
 }
